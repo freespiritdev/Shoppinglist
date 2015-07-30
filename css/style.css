@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+body {
+  background-color: #222222;
+  font-family: 'Italianno', cursive;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 0px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    padding: 20px;
+    font-family: 'Italianno', cursive;
+    padding-left-bottom: 40px;
+}
+
+h3 {
+  font-weight: 700;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 5px auto;
+  border: 1px solid #820000;
+  font-size: 20px;
+  font-family: inherit;
+  letter-spacing: 2px;
+}
+
+form div {
+  width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 25px;
+}
+
+ol, li {
+  margin: 15px;
+  list-style: none;
+}
+
+ul {
+  text-decoration: none;
+  text-align: center;
+  font-size: 35px;
+  margin: 20px;
+}
+
+.item {
+  margin: 9px 15px;
+  font-size: 30px;
+  position: relative;
+  letter-spacing: 1px;
+}
