@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 18px;
 }
 
 body {
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 70px;
     padding: 20px;
     font-family: 'Italianno', cursive;
     padding-left-bottom: 40px;
@@ -41,8 +41,7 @@ h3 {
 
 input {
   display: block;
-  width: 100%;
-  min-width: 500px;
+  min-width: 400px;
   max-width: 800px;
   margin: 5px auto;
   border: 1px solid #33CCFF;
@@ -89,6 +88,56 @@ ul {
   margin: 0px auto;
   padding: 0px 20px;
   background-color: #444444;
+}
+
+/* iPads */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    width: 650px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  input {
+    width: 600px;
+  }
+}
+
+/* Non-Retina Screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    body {
+    width: 920px;
+    font-size: 16px;
+  }
+
+
+  input {
+    width: 800px;
+  }
+}
+
+/*  Retina Screens  */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+  body {
+    width: 1020px;
+    font-size: 16px;
+  }
+
+
+  input {
+    width: 1024px;
+  }
 }
 
 
