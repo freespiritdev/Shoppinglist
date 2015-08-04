@@ -90,10 +90,60 @@ ul {
   background-color: #444444;
 }
 
-/* iPads */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@-ms-viewport{
+  width: device-width;
+}
+
+/* Portrait iPhone 6 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    body {
+    width: 310px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  input {
+    width: 320px;
+  }
+
+}
+
+/* Landscape iPhone 6*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    body {
+    width: 600px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  input {
+    width: 320px;
+  }
+
+
+}
+
+/* iPad */
+@media only screen and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
   body {
-    width: 650px;
+    width: 600px;
     font-size: 16px;
   }
 
