@@ -100,6 +100,7 @@ ul {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+    
     body {
     width: 310px;
     font-size: 16px;
@@ -107,10 +108,6 @@ ul {
 
   h1 {
     font-size: 60px;
-  }
-
-  input {
-    width: 320px;
   }
 
 }
@@ -121,6 +118,7 @@ ul {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    
     body {
     width: 600px;
     font-size: 16px;
@@ -129,12 +127,6 @@ ul {
   h1 {
     font-size: 60px;
   }
-
-  input {
-    width: 320px;
-  }
-
-
 }
 
 /* iPad */
@@ -142,6 +134,7 @@ ul {
 and (max-width: 1024px) 
 and (orientation: portrait) 
 and (-webkit-min-device-pixel-ratio: 1) {
+  
   body {
     width: 600px;
     font-size: 16px;
@@ -151,9 +144,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     font-size: 90px;
   }
 
-  input {
-    width: 600px;
-  }
 }
 
 /* Non-Retina Screens */
@@ -166,10 +156,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     font-size: 16px;
   }
 
-
-  input {
-    width: 800px;
-  }
 }
 
 /*  Retina Screens  */
@@ -184,10 +170,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     font-size: 16px;
   }
 
-
-  input {
-    width: 1024px;
-  }
 }
 
 footer {
