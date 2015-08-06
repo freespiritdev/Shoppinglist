@@ -9,7 +9,19 @@ $(document).ready(function() {
         }
         else {
             alert("Cannot be blank!")
-        }
-    };
-  
+    }
+  };
+  $('#add').click(function() {
+    addItem();
+  });
+  $('input').keypress(function(e){
+    if(e.keyCode == '13'){
+      e.preventDefault();
+      addItem();
+    }
+  });
+  $('#clearAll').mousedown(function() {
+         $('.item').remove();
+         status(); 
+    });
 });
