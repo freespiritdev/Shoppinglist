@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="us">
 <head>
-  <title></title>
+  <meta charset="utf-8">
+  <title>Shopping List</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  
   <link href='http://fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
   <body>
     <div class="page-header">
       <h1>Shopping <small>To do list</small></h1>
     </div>
+
+    <!-- Calendar -->
+    <h2 class="cal"></h2>
+    <div id="datepicker" class="cal"></div>
+
     <div id="container">
-      
       <ul>
         <li>Check/Uncheck</li>
         <li>Remove item</li>
@@ -32,9 +37,21 @@
       </form>
     </div>
 
+  
+
     <footer>
        <em>Copyright &copy; 2015 FreeSpirit Development</em>
     </footer>
+
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+  $( "#datepicker" ).datepicker({
+    inline: true
+  });
+
+</script>
   </body>
 </html>
 

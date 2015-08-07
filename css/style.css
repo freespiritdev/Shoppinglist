@@ -94,6 +94,11 @@ ul {
   background-color: #444444;
 }
 
+.cal {
+  float: right;
+  top: 10px;
+}
+
 @-ms-viewport{
   width: device-width;
 }
@@ -182,4 +187,8 @@ footer {
   font-size: 12px;
   text-align: center;
 }
+
+  select {
+    width: 200px;
+  }
 
