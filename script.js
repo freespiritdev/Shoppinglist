@@ -21,7 +21,11 @@ $(document).ready(function() {
     }
   });
   $('#clearAll').mousedown(function() {
-         $('.item').remove();
-         status(); 
-    });
+    $('.item').remove();
+    status(); 
+  });
+  $('#clearChecked').mousedown(function(){
+    $('.checked').remove();
+    status();
+  });
 });
