@@ -99,6 +99,18 @@ ul {
   top: 10px;
 }
 
+footer {
+  background-color: transparent;
+  font-family: "Latos";
+  font-size: 12px;
+  text-align: center;
+}
+
+select {
+  width: 200px;
+}
+
+
 @-ms-viewport{
   width: device-width;
 }
@@ -181,14 +193,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 }
 
-footer {
-  background-color: transparent;
-  font-family: "Latos";
-  font-size: 12px;
-  text-align: center;
-}
 
-  select {
-    width: 200px;
-  }
 
+  
