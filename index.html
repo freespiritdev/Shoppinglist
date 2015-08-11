@@ -20,23 +20,25 @@
     <h2 class="cal"></h2>
     <div id="datepicker" class="cal"></div>
 
+
     <div id="container">
       <ul>
         <li>Check/Uncheck</li>
-        <li>Remove item</li>
+        <li>Remove an item(Double Click)</li>
         <li>Drag to rearrange</li>
       </ul>
-    </div>
-
-    <div>
-      <h3>Items: 0/0</h3>
-      <form name="checklist" align="center">
-        <input type="text" name="checklist"/>
-          <button id="add">Add item</button>
-          <button id="clearChecked">Clear Checked items</button> 
-          <button type="clearAll">Clear All</button>
-      </form>
-    </div>
+    <h3>Items 0/0</h3>
+    <form name="checkListForm">
+      <input type="text" name="checkList"/>
+      <div>
+        <div id="" class="button">Add</div>
+        <div id="clearChecked" class="button">Clear Checked</div> 
+        <div id="clearAll" class="button">Clear All</div>
+      </div>
+    </form>
+    <br/>
+    <ol class="list">
+    </ol>
 
   
 
