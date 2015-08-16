@@ -28,10 +28,14 @@ $(document).ready(function() {
     $('.checked').remove();
     status();
   });
-    $(document).on('dblclick', '.item', function() {
-        $(this).remove();
+  $(document).on('dblclick', '.item', function() {
+    $(this).remove();
          status();
-    });
+  });
+  $(document).on('click', '.item', function() {
+    $(this).toggleClass('checked');
+         status();
+  });
   var status = function() {
     total = $('.item').length;
     console.log(total);
@@ -40,7 +44,7 @@ $(document).ready(function() {
     $('span').html('<span>' + (total-done) + '/' + total + '</span>');
   };
   var verify = function() {
-        $('toAdd').trim().length
-    }
-    $('ol').sortable();
+    $('toAdd').trim().length
+  }
+  $('ol').sortable();
 });
